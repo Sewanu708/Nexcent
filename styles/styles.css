@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+    --primary-color: #28CB8B;
+    --secondary-color: #263238;
+    --l-grey: #f5f7fa;
+    --font-family: 'inter';
+    --header-text: #18191F;
+    --brand-color: #4CAF4F;
+    --neutral-grey: #717171;
+    --natural-grey:#4D4D4D;
+    --light-brand:#C8E6C9;
+    --natural-black:#263238;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    max-width: 1750px;
+    margin: 0 auto;
+}
+
+.section__padding {
+    padding: 30px 105px;
+}
+
+.nexcent__navbar {
+    background: var(--l-grey);
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nexcent__navbar-logo {
+    flex: 0.5;
+}
+
+.nexcent__navbar-service {
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 50px;
+}
+
+.nexcent__navbar-service a {
+    text-decoration: none;
+    font-family: var(--font-family);
+    color: var(--header-text);
+    font-size: 16px;
+    line-height: 24px;
+    position: relative;
+    transition: all 300ms ease;
+}
+
+.nexcent__navbar-register {
+    flex: 0.55;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    column-gap: 14px;
+}
+
+.nexcent__navbar-register button {
+    padding: 10px 20px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+    transition: transform 300ms ease;
+    font-family: var(--font-family);
+}
+
+.nexcent__navbar-register button:first-child {
+    color: var(--brand-color);
+    background: none;
+}
+
+.nexcent__navbar-register__sign {
+    color: var(--l-grey);
+    background-color: var(--brand-color);
+    border-radius: 4px;
+}
+
+.nexcent__navbar-register button:hover {
+    transform: scale(1.10);
+}
+
+.nexcent__navbar-service a::after {
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 2px;
+    height: 2px;
+    left: 0;
+    bottom: 0;
+    background-color: var(--neutral-grey);
+    transition: all 300ms ease;
+}
+
+.nexcent__navbar-service a:hover::after {
+    width: 100%;
+}
+
+.nexcent__navbar-service a:hover {
+    transform: scale(1.10);
+}
+
+.nexcent__navbar-menu {
+    display: none;
+    position: relative;
+    z-index:2;
+}
+
+.nexcent__navbar-menu-service {
+    position: absolute;
+    background-color: var(--l-grey);
+    padding: 2rem;
+    top: 40px;
+    right: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    display: none;
+    width: 250px;
+}
+
+.nexcent__navbar-menu-service a {
+    font-family: var(--font-family);
+    color: #18191F;
+    text-decoration: none;
+    width: 100%;
+    text-align: end;
+    padding: 0.75rem;
+}
+
+.nexcent__navbar-menu-service-link:hover {
+    background-color: #263238;
+    color: #f5f7fa;
+}
+
+.nexcent__navbar-menu-service button {
+    padding: 10px 20px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 20px;
+    transition: transform 300ms ease;
+    font-family: var(--font-family);
+    background: var(--brand-color);
+    border-radius: 4px;
+}
+
+.nexcent__navbar-menu-service button a {
+    color: var(--l-grey);
+}
+
+.nexcent__navbar-menu-service button:hover {
+    transform: scale(1.10);
+}
+
+.scale-in-top {
+    -webkit-animation: scale-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: scale-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.scale-out-top {
+    -webkit-animation: scale-out-top 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+    animation: scale-out-top 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+
+@-webkit-keyframes scale-out-top {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-transform-origin: 50% 0%;
+        transform-origin: 50% 0%;
+        opacity: 1;
+    }
+
+    100% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+        -webkit-transform-origin: 50% 0%;
+        transform-origin: 50% 0%;
+        opacity: 1;
+    }
+}
+
+@keyframes scale-out-top {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-transform-origin: 50% 0%;
+        transform-origin: 50% 0%;
+        opacity: 1;
+    }
+
+    100% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+        -webkit-transform-origin: 50% 0%;
+        transform-origin: 50% 0%;
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes scale-in-top {
+    0% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+        -webkit-transform-origin: 50% 0%;
+        transform-origin: 50% 0%;
+        opacity: 1;
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-transform-origin: 50% 0%;
+        transform-origin: 50% 0%;
+        opacity: 1;
+    }
+}
+
+@keyframes scale-in-top {
+    0% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+        -webkit-transform-origin: 50% 0%;
+        transform-origin: 50% 0%;
+        opacity: 1;
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-transform-origin: 50% 0%;
+        transform-origin: 50% 0%;
+        opacity: 1;
+    }
+}
+.nexcent__login {
+    display: none;
+}
+
+@media screen and (max-width:1200px) {
+    .nexcent__navbar-menu {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        margin-left: 1rem;
+    }
+
+    .nexcent__navbar-menu i {
+        text-align: center;
+        /* line-height: 100px; */
+        font-size: 25px;
+        cursor: pointer;
+    }
+
+    .nexcent__navbar-service {
+        display: none;
+    }
+
+
+}
+
+@media screen and (max-width:1000px) {
+    .section__padding {
+        padding: 30px 75px;
+    }
+}
+
+@media screen and (max-width:750px) {
+    .nexcent__navbar-register {
+        display: none;
+    }
+    .nexcent__login {
+        display: block;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .section__padding {
+        padding: 30px 25px;
+    }
+
+    .nexcent__navbar-menu i {
+        font-size: 20px;
+    }
+
+    .nexcent__navbar-logo img {
+        width: 105px;
+        height: auto;
+    }
+
+}
+

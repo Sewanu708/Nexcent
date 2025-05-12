@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nexcent</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/clients.css">
+    <link rel="stylesheet" href="styles/community.css">
+    <link rel="stylesheet" href="styles/customer.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/blog.css">
+    <link rel="stylesheet" href="styles/achievement.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script src="./script.js" defer></script>
+</head>
+
+<body>
+    <section class="nexcent__navbar section__padding">
+        <div class="nexcent__navbar-logo">
+            <img src="./assets/Icon.svg" alt="">
+        </div>
+        <div class="nexcent__navbar-service">
+            <a href="#">Home</a>
+            <a href="#">Service</a>
+            <a href="#">Feature</a>
+            <a href="#">Product</a>
+            <a href="#">Testimonial</a>
+            <a href="#">FAQ</a>
+        </div>
+        <div class="nexcent__navbar-register">
+            <button>Login</button>
+            <button class="nexcent__navbar-register__sign">Sign up</button>
+        </div>
+
+        <div class="nexcent__navbar-menu">
+            <i class="fa fa-bars" id="menu" aria-hidden="true"></i>
+            <div class="nexcent__navbar-menu-service   scale-in-top">
+                <a href="#" class="nexcent__navbar-menu-service-link">Home</a>
+                <a href="#" class="nexcent__navbar-menu-service-link">Service</a>
+                <a href="#" class="nexcent__navbar-menu-service-link">Feature</a>
+                <a href="#" class="nexcent__navbar-menu-service-link">Product</a>
+                <a href="#" class="nexcent__navbar-menu-service-link">Testimonial</a>
+                <a href="#" class="nexcent__navbar-menu-service-link">FAQ</a>
+                <a href="#" class="nexcent__navbar-menu-service-link nexcent__login">Login</a>
+                <button class="nexcent__login"><a href="#">Sign up</a></button>
+            </div>
+        </div>
+    </section>
+
+    <section class="nexcent__header section__padding">
+        <div class="nexcent__header-carousel-container fade-animation">
+            <div class="nexcent__header-content">
+                <div>
+                    Lessons and insights <span>from 8 years</span>
+                </div>
+                <div class="nexcent__header-content-second-child">
+                    Where to grow your business as a photographer: site or social media?
+                </div>
+                <div class="nexcent__button">
+                    <button>Register</button>
+                </div>
+            </div>
+            <div class="nexcent__header-image">
+                <img src="./assets/Illustration.svg" alt="">
+            </div>
+        </div>
+        <div class="nexcent__header-carousel-container fade-animation">
+            <div class="nexcent__header-content">
+                <div>
+                    Empower your team with <span>the right tools</span>
+                </div>
+                <div class="nexcent__header-content-second-child">
+                    Equip your business with modern solutions to enhance collaboration, creativity, and productivity.
+                </div>
+                <div class="nexcent__button">
+                    <button>Get Started</button>
+                </div>
+            </div>
+            <div class="nexcent__header-image">
+                <img src="./assets/rafiki.svg" alt="">
+            </div>
+        </div>
+        <div class="nexcent__header-carousel-container fade-animation">
+            <div class="nexcent__header-content">
+                <div>
+                    Achieve sustainable <span>growth and success </span>
+                </div>
+                <div class="nexcent__header-content-second-child">
+                    Discover strategies and techniques to scale your business confidently in a changing digital world.
+                </div>
+                <div class="nexcent__button">
+                    <button>Learn More
+                    </button>
+                </div>
+            </div>
+            <div class="nexcent__header-image">
+                <img src="./assets/pana.svg" alt="">
+            </div>
+        </div>
+        <div class="dots">
+            <div class="dot active" onclick="currentShow(1)">
+
+            </div>
+            <div class="dot" onclick="currentShow(2)">
+
+            </div>
+            <div class="dot" onclick="currentShow(3)">
+
+            </div>
+        </div>
+
+        <div class="nexcent__header-carousel-controls__prev" onclick="nextShow(-1)">
+            <i class="fa fa-chevron-left" aria-hidden="true"></i>
+        </div>
+        <div class="nexcent__header-carousel-controls__next" onclick="nextShow(1)">
+            <i class="fa fa-chevron-right" aria-hidden="true"></i>
+        </div>
+
+    </section>
+
+    <section class="nexcent__clients section__padding">
+        <div>
+            <p>Our Clients</h2>
+            <p>We have been working with some Fortune 500+ clients</p>
+        </div>
+        <div class="nexcent__clients-slider">
+            <div class="nexcent__clients-track">
+               
+                <div class="nexcent__clients-logo animation-a">
+                    <div class="logo-item">
+                        <img src="./assets/Logo2.png" alt="Client Logo" srcset="">
+                    </div>
+                    <div class="logo-item">
+                        <img src="./assets/Logo3.png" alt="Client Logo" srcset="">
+                    </div>
+                    <div class="logo-item">
+                        <img src="./assets/Logo5.png" alt="Client Logo" srcset="">
+                    </div>
+                    <div class="logo-item">
+                        <img src="./assets/Logo6.png" alt="Client Logo" srcset="">
+                    </div>
+                    <div class="logo-item">
+                        <img src="./assets/Logo7.png" alt="Client Logo" srcset="">
+                    </div>
+                    <div class="logo-item">
+                        <img src="./assets/Logo8.png" alt="Client Logo" srcset="">
+                    </div>
+                </div>
+               
+                <div class="nexcent__clients-logo animation-b">
+                    <div class="logo-item">
+                        <img src="./assets/Logo2.png" alt="Client Logo" srcset="">
+                    </div>
+                    <div class="logo-item">
+                        <img src="./assets/Logo3.png" alt="Client Logo" srcset="">
+                    </div>
+                    <div class="logo-item">
+                        <img src="./assets/Logo5.png" alt="Client Logo" srcset="">
+                    </div>
+                    <div class="logo-item">
+                        <img src="./assets/Logo6.png" alt="Client Logo" srcset="">
+                    </div>
+                    <div class="logo-item">
+                        <img src="./assets/Logo7.png" alt="Client Logo" srcset="">
+                    </div>
+                    <div class="logo-item">
+                        <img src="./assets/Logo8.png" alt="Client Logo" srcset="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="nexcent__community section__padding">
+        <div class="nexcent__community-header">
+            <p>
+                Manage your entire community <br> in a single system
+            </p>
+            <p>Who is Nexcent suitable for?</p>
+        </div>
+        <div class="nexcent__community-content">
+            <div class="nexcent__community-content__members">
+                <div class="nexcent__community-content__members-icon"><img src="./assets/members.svg" alt="" srcset="">
+                </div>
+                <div class="nexcent__community-content__members-details">
+                    <p>Membership Organisations</p>
+                    <p>Our membership management software provides full automation of membership renewals and payments
+                    </p>
+                </div>
+            </div>
+            <div class="nexcent__community-content__members">
+                <div class="nexcent__community-content__members-icon"><img src="./assets/association.svg" alt=""
+                        srcset=""></div>
+                <div class="nexcent__community-content__members-details">
+                    <p>National Associations</p>
+                    <p>Our membership management software provides full automation of membership renewals and payments
+                    </p>
+                </div>
+            </div>
+            <div class="nexcent__community-content__members">
+                <div class="nexcent__community-content"><img src="./assets/clubs.svg" alt="" srcset=""></div>
+                <div class="nexcent__community-content__members-details">
+                    <p>Clubs and Groups</p>
+                    <p>Our membership management software provides full automation of membership renewals and payments
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="nexcent__unlock section__padding">
+        <div class="nexcent__unlock-image">
+            <img src="./assets/pana.svg" alt="">
+        </div>
+        <div class="nexcent__unlock-details">
+            <div>The unseen of spending three years at Pixelgrade</div>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium aliquam quaerat incidunt dolor
+                facere laborum. Officia sequi tempora quos unde dolorum voluptatum consequatur, voluptatibus adipisci
+                ipsa, sint recusandae aut tenetur?</p>
+            <div class="nexcent__button">
+                <button>Learn More</button>
+            </div>
+
+        </div>
+    </section>
+    <section class="nexcent__achievements section__padding">
+        <div class="nexcent__achievements-header">
+            <p>
+                Helping a local <span> business reinvent itself </span>
+            </p>
+            <p>We reached here with our hard work and dedication</p>
+        </div>
+        <div class="nexcent__achievements-numbers">
+            <div class="nexcent_achievements-numbers__members">
+                <div><img src="./assets/meIcon.svg" alt="" srcset=""></div>
+
+                <div>
+                    <p>2,245,341</p>
+                    <p>Members</p>
+                </div>
+            </div>
+            <div class="nexcent_achievements-numbers__members">
+                <div><img src="./assets/clubs.svg" alt="" srcset=""></div>
+
+                <div>
+                    <p>45,341</p>
+                    <p>Clubs</p>
+                </div>
+            </div>
+            <div class="nexcent_achievements-numbers__members">
+                <div><img src="./assets/eIcon.svg" alt="" srcset=""></div>
+
+                <div>
+                    <p>845,341</p>
+                    <p>Event Bookings</p>
+                </div>
+            </div>
+            <div class="nexcent_achievements-numbers__members">
+                <div><img src="./assets/pIcon.svg" alt="" srcset=""></div>
+
+                <div>
+                    <p>1,845,341</p>
+                    <p>Payments</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="nexcent__unlock section__padding">
+        <div class="nexcent__unlock-image">
+            <img src="./assets/rafiki.svg" alt="">
+        </div>
+        <div class="nexcent__unlock-details">
+            <div>How to design your site footer like we did</div>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium aliquam quaerat incidunt dolor
+                facere laborum. Officia sequi tempora quos unde dolorum voluptatum consequatur, voluptatibus adipisci
+                ipsa, sint recusandae aut tenetur?</p>
+            <div class="nexcent__button">
+                <button>Learn More</button>
+            </div>
+
+        </div>
+    </section>
+    <section class="nexcent__customer section__padding">
+        <div class="nexcent__customer-image">
+            <img src="./assets/image 9.png" alt="" srcset="">
+        </div>
+        <div class="nexcent__customer-details">
+            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti praesentium aut consectetur, nihil
+                officiis temporibus voluptate qui, rem id et nulla! Sint sit, unde nostrum odit alias vitae blanditiis
+                aliquid. Tempore est nemo error, dolores incidunt debitis, consequuntur obcaecati, tempora dolor velit
+                quibusdam quaerat veritatis.</div>
+            <p class="nexcent__customer-details__name">Tim Smith</p>
+            <p class="nexcent__customer-details__org">British Dragon Boat Racing Association</p>
+
+            <div class="nexcent__customer-logo">
+                <div>
+                    <div>
+                        <img src="./assets/Logo2.png" alt="" srcset="">
+                    </div>
+                    <div>
+                        <img src="./assets/Logo3.png" alt="" srcset="">
+                    </div>
+                    <div>
+                        <img src="./assets/Logo5.png" alt="" srcset="">
+                    </div>
+                    <div>
+                        <img src="./assets/Logo6.png" alt="" srcset="">
+                    </div>
+                    <div>
+                        <img src="./assets/Logo7.png" alt="" srcset="">
+                    </div>
+                    <div>
+                        <img src="./assets/Logo8.png" alt="" srcset="">
+                    </div>
+                </div>
+                <div class="nexcent__customer-details-meet"> Meet all customers <i class="fa fa-long-arrow-right"
+                        aria-hidden="true"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="nexcent__community-updates section__padding">
+        <div class="nexcent__community-updates-header">
+            <p>
+                Caring is the new marketing
+            </p>
+            <p>
+                The Nexcent blog is the best place to read about the latest membership insights, trends and more. See
+                who's joining the community, read about how our community are increasing their membership income and
+                lot's more.​
+            </p>
+        </div>
+        <div class="nexcent__commnunity-update-blogs">
+            <div class="nexcent__commnunity-update-blogs-1">
+                <img src="./assets/image 19.png" alt="">
+                <div>
+                    <p>Creating Streamlined Safeguarding Processes with OneRen</p>
+                    <a href="#">Read More <span><i class="fa fa-long-arrow-right" aria-hidden="true"></i></span></a>
+                </div>
+            </div>
+            <div class="nexcent__commnunity-update-blogs-1 active">
+                <img src="./assets/image 19.png" alt="">
+                <div>
+                    <p>What are your safeguarding responsibilities and how can you manage them?</p>
+                    <a href="#">Read More <span><i class="fa fa-long-arrow-right" aria-hidden="true"></i></span></a>
+                </div>
+            </div>
+            <div class="nexcent__commnunity-update-blogs-1">
+                <img src="./assets/image 19.png" alt="">
+                <div>
+                    <p>Revamping the Membership Model with Triathlon Australia</p>
+                    <a href="#">Read More <span><i class="fa fa-long-arrow-right" aria-hidden="true"></i></span></a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="nexcent_demo section__padding">
+        <div>Experience our solution firsthand</div>
+        <div class="nexcent__button">
+            <button>Get a Demo</button>
+        </div>
+    </section>
+    <section class="nexcent__footer section__padding">
+        <div class="nexcent__footer-1">
+            <div class="nexcent__footer-1__logo">
+                <img src="./assets/Logo-wh.svg" alt="" srcset="">
+            </div>
+            <div class="nexcent__footer-1__copyright">
+                <p> Copyright © 2020 Nexcent ltd.</p>
+                <p>All rights reserved</p>
+            </div>
+            <div class="nexcent__footer-1__socials">
+                <div class="nexcent__footer-1__socials-ig">
+                    <img src="./assets/ig.svg" alt="">
+                </div>
+                <div class="nexcent__footer-1__socials-linkedIn"><img src="./assets/Path.svg" alt=""></div>
+                <div class="nexcent__footer-1__socials-x">
+                    <img src="./assets/x.svg" alt=""></i>
+                </div>
+                <div class="nexcent__footer-1__socials-yt">
+                    <img src="./assets/yt.svg" alt="">
+                </div>
+            </div>
+        </div>
+
+
+        <div class="nexcent__footer-21">
+            <div class="nexcent__footer-21-header">Company</div>
+            <div class="nexcent__footer-21__service">
+                <div>
+                    About us
+                </div>
+                <div>Blog</div>
+                <div>
+                    Contact us
+                </div>
+                <div>Pricing</div>
+                <div>Testimonials</div>
+            </div>
+        </div>
+
+        <div class="nexcent__footer-21">
+            <div class="nexcent__footer-21-header">Support</div>
+            <div class="nexcent__footer-21__service">
+                <div>
+                    Help center
+                </div>
+                <div>Terms of service</div>
+                <div>
+                    Legal
+                </div>
+                <div>Privacy policy</div>
+                <div>Status</div>
+            </div>
+        </div>
+
+        <div class="nexcent__footer-21">
+            <div class="nexcent__footer-21-header">Stay up to date</div>
+            <div class="nexcent__footer-21__service nexcent-contact">
+                <input type="email" placeholder="Your email address">
+                <img src="./assets/send.svg" alt="">
+            </div>
+        </div>
+
+    </section>
+
+</body>
+
+</html>

@@ -1,0 +1,76 @@
+.nexcent__clients {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.nexcent__clients div:first-child p:first-child {
+    padding-top: 10px;
+    font-family: var(--font-family);
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--natural-grey);
+    margin-bottom: 8px;
+}
+
+.nexcent__clients div:first-child p:last-child {
+    font-size: 16px;
+    font-family: var(--font-family);
+    margin-bottom: 16px;
+    text-align: center;
+}
+.nexcent__clients-slider {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.nexcent__clients-track {
+    display: flex;
+    width: fit-content; 
+}
+
+.nexcent__clients-logo {
+    display: flex;
+    animation: scroll 20s linear infinite;
+}
+
+.logo-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 80px;
+    margin: 0 20px;
+}
+
+.logo-item img {
+    max-width: 100%;
+    max-height: 50px;
+    object-fit: contain;
+}
+.nexcent__clients-track:hover .animation-b {
+    animation-play-state: paused;
+}
+.nexcent__clients-track:hover .animation-a {
+    animation-play-state: paused;
+}
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%); 
+    }
+}
+@media screen and (max-width:550px) {
+    .nexcent__clients div:first-child p:first-child {
+        font-size: 24px;
+    }
+    .nexcent__clients div:first-child p:last-child {
+        font-size: 14px;
+    }
+}

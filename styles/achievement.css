@@ -1,0 +1,99 @@
+.nexcent__achievements {
+    background: var(--l-grey);
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nexcent__achievements-header {
+    padding-top: 10px;
+    flex: 0.60;
+}
+
+.nexcent__achievements-header p:first-child {
+    font-family: var(--font-family);
+    font-size: 36px;
+    line-height: 44px;
+    color: var(--natural-grey);
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.nexcent__achievements-header p:first-child span {
+    color: var(--brand-color);
+}
+
+.nexcent__achievements-numbers {
+    padding-top: 10px;
+    flex: 0.6;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 60px;
+    row-gap: 40px;
+}
+
+.nexcent__achievements-header p:last-child {
+    font-family: var(--font-family);
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--natural-grey);
+    margin-bottom: 8px;
+}
+
+.nexcent_achievements-numbers__members{
+    display: flex;
+    column-gap: 16px;
+}
+
+.nexcent_achievements-numbers__members div:last-child{
+    font-family: var(--font-family);
+}
+.nexcent_achievements-numbers__members div:last-child p:first-child{
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 36px;
+    color: var(--natural-black);
+}
+
+.nexcent_achievements-numbers__members div:last-child p:last-child{
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--natural-grey);
+}
+
+@media screen and (max-width:1100px) {
+    .nexcent__achievements{
+        flex-direction: column;
+        row-gap: 1.8rem;
+    }
+}
+
+@media screen and (max-width:750px) {
+    .nexcent_achievements-numbers__members div:last-child p:first-child{
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 26px;
+        color: var(--natural-black);
+    }
+}
+
+@media screen and (max-width:550px) {
+    .nexcent_achievements-numbers__members div:last-child p:first-child{
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 32px;
+        color: var(--natural-black);
+    }
+    .nexcent__achievements-numbers {
+
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 40px;
+    }
+    .nexcent__achievements-header p:first-child {
+        font-family: var(--font-family);
+        font-size: 26px;
+        line-height: 32px;
+    }
+}

@@ -1,0 +1,110 @@
+.nexcent__footer {
+    width: 100%;
+    height: auto;
+    background: var(--natural-black);
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.nexcent__footer-1 {
+    padding: 34px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+    row-gap: 40px;
+    color: var(--l-grey);
+    font-family: var(--font-family);
+}
+
+.nexcent__footer-21 {
+    padding: 34px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-direction: column;
+    color: var(--l-grey);
+    row-gap: 32px;
+    font-family: var(--font-family);
+}
+
+.nexcent__footer-21-header {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.nexcent__footer-21__service {
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+
+}
+
+.nexcent__footer-21__service div {
+    font-size: 14px;
+}
+
+.nexcent-contact {
+    padding: 12px;
+    background: #3d5059;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.nexcent-contact input {
+    background: none;
+    border: none;
+    outline: none;
+    color: var(--l-grey);
+}
+
+.nexcent-contact input::placeholder {
+    color: var(--l-grey);
+}
+
+.nexcent__footer-1__copyright {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+}
+
+.nexcent__footer-1__socials {
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nexcent__footer-1__socials div {
+    background: #3d5059;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+@media screen and (max-width:1000px) {
+    .nexcent__footer {
+        grid-template-columns: 2fr 1fr 1fr;
+    }
+}
+
+@media screen and (max-width:750px) {
+    .nexcent__footer {
+        grid-template-columns: 2fr 1fr;
+    }
+}
+
+
+@media screen and (max-width:650px) {
+    .nexcent__footer {
+        grid-template-columns: 1fr;
+    }
+}
