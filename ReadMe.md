@@ -20,35 +20,7 @@ Click here to access the live website
 
 ✅ Built with pure HTML, CSS, and JavaScript (no frameworks).
 
-📂 Project Structure
-css
-Copy
-Edit
-├── index.html
-├── script.js
-└── styles
-    ├── styles.css
-    ├── header.css
-    ├── clients.css
-    ├── community.css
-    ├── customer.css
-    ├── footer.css
-    ├── blog.css
-    ├── achievement.css
-    └── assets/
-    ├── Icon.svg
-    ├── Illustration.svg
-    ├── rafiki.svg
-    ├── pana.svg
-    ├── Logo2.png
-    ├── Logo3.png
-    ├── Logo5.png
-    ├── Logo6.png
-    ├── Logo7.png
-    ├── Logo8.png
-    ├── members.svg
-    ├── association.svg
-    ├── clubs.svg
+
 🛠️ Technologies Used
 HTML5 - Markup structure
 
