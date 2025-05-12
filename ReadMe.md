@@ -1,9 +1,9 @@
-Nexcent - Business Growth & Community Management Website
+## Nexcent - Business Growth & Community Management Website
 Welcome to Nexcent! This project is a modern, responsive, and interactive landing page designed for businesses looking to manage their community, showcase services, and drive growth. Built with clean HTML, CSS, and JavaScript, the site includes smooth carousels, client sliders, and dynamic navigation menus.
 
 🌐 Live Demo
 Click here to access the live website
-(Replace with your actual live link once deployed on GitHub Pages, Netlify, Vercel, etc.)
+()
 
 🚀 Features
 ✅ Responsive Navigation Bar with toggle menu for mobile devices.
